@@ -110,7 +110,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-export PS1="\[\e[31;1m\]Aliyun \[\e[35;1m\]\h \[\e[34;1m\]\u \[\e[36;1m\]\d \t \[\e[32;1m\]\$PWD/ (\$(ls -A|wc -l))\[\e[0m\] \n\[\e[0m\]\[\e[33;1m\]\$\[\e[0m\]"
+export PS1="\[\e[31;1m\]Aliyun \[\e[35;1m\]\h \[\e[34;1m\]\u \[\e[36;1m\]\d \t \[\e[32;1m\]\$PWD/ (\$(ls -A|wc -l))\[\e[0m\] \n\[\e[0m\]\[\e[33;1m\]\$\[\e[0m\] "
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
