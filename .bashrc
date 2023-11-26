@@ -148,6 +148,9 @@ alias cdlss='function __cdlss(){ if [ $# == 1 ]; then cd $1; ls -s; unset -f __c
 alias mkcd='function __mkcd(){ if [ $# == 1 ]; then mkdir $1; cd $1; unset -f __mkcd; elif [ $# == 2 ]; then mkdir $1 $2; cd $2; unset -f __mkcd; fi }; __mkcd'
 alias sc="screen"
 
+# Path edit by gyw
+#export PATH="/home/guoyingwei/software/annovar/":$PATH
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
