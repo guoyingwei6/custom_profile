@@ -110,7 +110,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-export PS1="\[\e[31;1m\]Aliyun \[\e[35;1m\]\h \[\e[34;1m\]\u \[\e[36;1m\]\d \t \[\e[32;1m\]\$PWD/ (\$(ls -A|wc -l))\[\e[0m\] \n\[\e[0m\]\[\e[33;1m\]\$\[\e[0m\] "
+export PS1="\[\e[31;1m\]Aliyun \[\e[35;1m\]\[\e[34;1m\]\u \[\e[36;1m\]\d \t \[\e[32;1m\]\$PWD/ (\$(ls -A|wc -l))\[\e[0m\] \n\[\e[0m\]\[\e[33;1m\]\$\[\e[0m\] "
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
@@ -147,7 +147,7 @@ alias cdls='function __cdls(){ if [ $# == 1 ]; then cd $1; ls; unset -f __cdls; 
 alias cdlss='function __cdlss(){ if [ $# == 1 ]; then cd $1; ls -s; unset -f __cdlss; fi }; __cdlss'
 alias mkcd='function __mkcd(){ if [ $# == 1 ]; then mkdir $1; cd $1; unset -f __mkcd; elif [ $# == 2 ]; then mkdir $1 $2; cd $2; unset -f __mkcd; fi }; __mkcd'
 alias sc="screen"
-
+alias free="free -h"
 # Path edit by gyw
 #export PATH="/home/guoyingwei/software/annovar/":$PATH
 
